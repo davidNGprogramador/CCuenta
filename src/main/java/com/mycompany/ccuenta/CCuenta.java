@@ -36,6 +36,7 @@ public class CCuenta {
     
     private int contador = 1;
     private double comision = 0.0;
+    private String producto;
 
     /**
      * Constructor sin argumentos
