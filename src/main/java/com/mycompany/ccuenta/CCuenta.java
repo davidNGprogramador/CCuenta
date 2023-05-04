@@ -33,6 +33,9 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
     private String[] factura = {"seguro", "luz", "agua", "alquiler"};
+    
+    private int contador = 1;
+    private double comision = 0.0;
 
     /**
      * Constructor sin argumentos
